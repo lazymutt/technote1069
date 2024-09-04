@@ -4,5 +4,5 @@ Back in the olden days, I found a typo in Technote 1069. I looked for it a while
 
 
 
-[HTML](https://preterhuman.net/macstuff/technotes/tn/tn1069.html)
+[HTML](https://preterhuman.net/macstuff/technotes/tn/tn1069.html)   
 A PDF is in the repo.
