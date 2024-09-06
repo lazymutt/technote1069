@@ -8,4 +8,4 @@ A PDF is in the repo.
 
 ### TTD:
 - [x] Find PDF
-- [ ] Find the email exchange confirming the issue.
+- [x] Find the email exchange confirming the issue.
