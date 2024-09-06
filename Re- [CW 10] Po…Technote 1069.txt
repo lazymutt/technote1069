@@ -1,1 +1,35 @@
-Path: condor.ic.net!news.sojourn.com!cancer.vividnet.com!hunter.premier.net!news.mathworks.com!enews.sgi.com!news.sgi.com!olivea!bznews.apple.com!nntp1.apple.com!blobFrom: blob@apple.com (Brian Bechtel)Newsgroups: comp.sys.mac.programmer.codewarrior,comp.sys.mac.programmer.helpSubject: Re: [CW 10] Possible bug in System 7.5.5/Technote 1069Date: Thu, 26 Sep 1996 15:38:29 -0700Organization: Developer Technical Support, Apple Computer, Inc.Lines: 19Message-ID: <blob-ya023080002609961538290001@news.apple.com>References: <mcdan-ya023080002309961056410001@news.itd.umich.edu>NNTP-Posting-Host: 17.128.203.191Mime-Version: 1.0Content-Type: text/plain; charset=ISO-8859-1Content-Transfer-Encoding: 8bitX-Newsreader: Yet Another NewsWatcher 2.3.0Xref: condor.ic.net comp.sys.mac.programmer.codewarrior:32646 comp.sys.mac.programmer.help:37823In article <mcdan-ya023080002309961056410001@news.itd.umich.edu>,mcdan@umich.edu (Todd McDaniel) wrote:> Hi. I think I've found an error either in System 7.5.5 or in Technote 1069> describing System 7.5.5.> > I have written a small utility that uses Gestalt calls to present the user> with a description of their machine. While modifying it to recognize system> 7.5.5, I came across an error. The technote (1069) says that the Gestalt> call to 'sysu' on a machine updated to System 7.5.5 should return the hex> value: 0x02058000. But on my machine using CW 10, the value returned is> 0x02068000.It's a bug in the technote.  The revised technote 1069 is now available at<http://devworld.apple.com/dev/technotes/tn/tn1069.html>.  Todd's name iseven in it :-)-- --Brian Bechtel, blob@apple.com  "My opinions, not Apple's"
+Path: condor.ic.net!news.sojourn.com!cancer.vividnet.com!hunter.premier.net!news.mathworks.com!enews.sgi.com!news.sgi.com!olivea!bznews.apple.com!nntp1.apple.com!blob
+From: blob@apple.com (Brian Bechtel)
+Newsgroups: comp.sys.mac.programmer.codewarrior,comp.sys.mac.programmer.help
+Subject: Re: [CW 10] Possible bug in System 7.5.5/Technote 1069
+Date: Thu, 26 Sep 1996 15:38:29 -0700
+Organization: Developer Technical Support, Apple Computer, Inc.
+Lines: 19
+Message-ID: <blob-ya023080002609961538290001@news.apple.com>
+References: <mcdan-ya023080002309961056410001@news.itd.umich.edu>
+NNTP-Posting-Host: 17.128.203.191
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 8bit
+X-Newsreader: Yet Another NewsWatcher 2.3.0
+Xref: condor.ic.net comp.sys.mac.programmer.codewarrior:32646 comp.sys.mac.programmer.help:37823
+
+In article <mcdan-ya023080002309961056410001@news.itd.umich.edu>,
+mcdan@umich.edu (Todd McDaniel) wrote:
+
+> Hi. I think I've found an error either in System 7.5.5 or in Technote 1069
+> describing System 7.5.5.
+> 
+> I have written a small utility that uses Gestalt calls to present the user
+> with a description of their machine. While modifying it to recognize system
+> 7.5.5, I came across an error. The technote (1069) says that the Gestalt
+> call to 'sysu' on a machine updated to System 7.5.5 should return the hex
+> value: 0x02058000. But on my machine using CW 10, the value returned is
+> 0x02068000.
+
+It's a bug in the technote.  The revised technote 1069 is now available at
+<http://devworld.apple.com/dev/technotes/tn/tn1069.html>.  Todd's name is
+even in it :-)
+
+-- 
+--Brian Bechtel, blob@apple.com  "My opinions, not Apple's"
