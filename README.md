@@ -1,4 +1,4 @@
-# Technote 1069
+# Technote 1069, System 7.5.5
 
 Back in the olden days, I found a typo in Technote 1069. I looked for it a while back and couldn't find it. I found it again recently and don't want to lose it again.
 
